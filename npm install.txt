@@ -1,0 +1,17 @@
+Backend (API / Server)
+
+npm install express cors dotenv jsonwebtoken express-validator multer mqtt mysql2 bcrypt socket.io
+
+---------------------------------------------------------------------------
+Frontend (หน้าเว็บ / UI)
+
+สร้างโปรเจกต์
+npm create vite@latest my-frontend -- --template vue
+cd my-frontend
+
+ติดตั้ง Dependencies ที่คุณลิสต์มา
+npm install axios jwt-decode pinia vuetify vite-plugin-vuetify @mdi/font tailwindcss @tailwindcss/vite mqtt
+
+ตั้งค่า Tailwind
+
+npx tailwindcss init -p
